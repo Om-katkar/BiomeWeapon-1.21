@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "biome-weapon",
+	"version": "${version}",
+	"name": "Biome Weapon",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/biome-weapon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.draken_bigbro.biome_weapon.BiomeWeapon"
+		],
+		"fabric-datagen": [
+			"com.draken_bigbro.biome_weapon.BiomeWeaponDataGenerator"
+		]
+	},
+	"mixins": [
+		"biome-weapon.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
