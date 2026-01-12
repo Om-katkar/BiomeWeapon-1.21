@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:item/generated",
+  "textures": {
+    "layer0": "biome-weapon:item/flame_gem"
+  }
+}

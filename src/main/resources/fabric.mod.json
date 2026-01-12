@@ -1,17 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "biome-weapon",
-	"version": "${version}",
+	"version": "1.21.1",
 	"name": "Biome Weapon",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod which add multiple new weapons which are themed with biome ",
 	"authors": [
-		"Me!"
+		"Draken_bigbro"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/biome-weapon/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.draken_bigbro.biome_weapon.BiomeWeaponDataGenerator"
+		],
+		"client": [
+			"com.draken_bigbro.biome_weapon.BiomeWeaponClient"
 		]
 	},
 	"mixins": [

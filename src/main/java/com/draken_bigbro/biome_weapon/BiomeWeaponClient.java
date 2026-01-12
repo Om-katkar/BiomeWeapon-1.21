@@ -1,4 +1,10 @@
 package com.draken_bigbro.biome_weapon;
 
-public class BiomeWeaponClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class BiomeWeaponClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }
